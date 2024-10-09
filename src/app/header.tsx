@@ -9,7 +9,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { DeleteIcon, LogInIcon, LogOutIcon } from "lucide-react";
+import { LogInIcon, LogOutIcon, Trash } from "lucide-react";
 import Image from "next/image";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import Link from "next/link";
@@ -74,6 +74,7 @@ function AccountDropdown() {
                 callbackUrl: "/",
               })
             }
+            className=" flex gap-2 focus:bg-[#f34e4e] cursor-pointer"
           >
             <LogOutIcon className="mr-2" /> Sign Out
           </DropdownMenuItem>
@@ -82,8 +83,9 @@ function AccountDropdown() {
             onClick={() => {
               setOpen(true);
             }}
+            className=" flex gap-2 focus:bg-[#f34e4e] cursor-pointer"
           >
-            <DeleteIcon className="mr-2" /> Delete Account
+            <Trash className="mr-2" /> Delete Account
           </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
