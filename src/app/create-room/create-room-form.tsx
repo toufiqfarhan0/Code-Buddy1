@@ -59,7 +59,7 @@ export function CreateRoomForm() {
             <FormItem>
               <FormLabel>Name</FormLabel>
               <FormControl>
-                <Input {...field} placeholder="Dev Finder Is Awesome" />
+                <Input {...field} placeholder="Code Buddy Is Awesome" />
               </FormControl>
               <FormDescription>This is your public room name.</FormDescription>
               <FormMessage />
@@ -76,7 +76,7 @@ export function CreateRoomForm() {
               <FormControl>
                 <Input
                   {...field}
-                  placeholder="Im working on a side project, come join me"
+                  placeholder="I'm working on a side project, come join me"
                 />
               </FormControl>
               <FormDescription>
@@ -96,7 +96,7 @@ export function CreateRoomForm() {
               <FormControl>
                 <Input
                   {...field}
-                  placeholder="https://github.com/webdevcody/dev-finder"
+                  placeholder="https://github.com/your-repository"
                 />
               </FormControl>
               <FormDescription>
