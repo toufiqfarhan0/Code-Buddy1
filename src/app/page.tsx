@@ -17,15 +17,8 @@ export default function LandingPage() {
             }}
           />
         </div>
-        <div className="mx-auto max-w-2xl py-12">
-          <div className="text-center">
-            <Image
-              className="inline-block"
-              src="/icon.png"
-              width="200"
-              height="200"
-              alt="dev finder logo"
-            />
+        <div className="mx-auto mt-20 max-w-2xl py-12">
+          <div className="text-center items-center">
 
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl">
               Find other awesome devs to pair with online
