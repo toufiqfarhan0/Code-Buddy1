@@ -61,7 +61,7 @@ function AccountDropdown() {
           <Button variant={"link"}>
             <Avatar className="mr-2">
               <AvatarImage src={session.data?.user?.image ?? ""} />
-              <AvatarFallback>CN</AvatarFallback>
+              <AvatarFallback>{session.data?.user?.name?.charAt(0).toUpperCase()}</AvatarFallback>
             </Avatar>
 
             {session.data?.user?.name}
