@@ -10,7 +10,6 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { LogInIcon, LogOutIcon, Trash } from "lucide-react";
-import Image from "next/image";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import Link from "next/link";
 import {
@@ -102,7 +101,7 @@ export function Header() {
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/">
           <h1 className="font-bold text-3xl">
-            Code<span className="text-cyan-600">Buddy</span>
+            Code<span className="text-purple-400">Buddy</span>
           </h1>
         </Link>
 
